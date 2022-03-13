@@ -4,7 +4,9 @@
 }
 
 body {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(231px, min-content) 1fr;
+    grid-auto-flow: column;
 
     height: 100vh;
 
