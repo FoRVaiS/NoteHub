@@ -1,0 +1,38 @@
+{
+  "name": "notehub",
+  "version": "1.0.0-alpha.1",
+  "description": "A collaborative note sharing application designed for computer science.",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoRVaiS/NoteHub.git"
+  },
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "Benjamin Chiang",
+      "email": "chiangbenjamin991@gmail.com",
+      "url": "https://www.nebulousware.ca",
+    },
+    {
+      "name": "Terence Grigoruk"
+    },
+    {
+      "name": "Felix Lieu"
+    },
+    {
+      "name": "Toco Tachibana"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FoRVaiS/NoteHub/issues"
+  },
+  "homepage": "https://github.com/FoRVaiS/NoteHub#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
