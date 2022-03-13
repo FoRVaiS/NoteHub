@@ -10,10 +10,14 @@ body {
 
     margin: 0;
     padding: 0;
+
+    background-color: hsl(0, 0%, 11%);
 }
 
 .container {
     width: 100%;
+
+    background-color: hsl(0, 0%, 100%);
 }
 
 /* Partials Styles */
@@ -23,8 +27,6 @@ body {
     list-style: none;
 
     height: 100%;
-
-    background-color: hsl(0, 0%, 11%);
 }
 .nav__section {
     display: flex;
