@@ -1,0 +1,78 @@
+#main-container {
+    display: grid;
+
+    grid-template-columns: minmax(max-content, 700px) 450px;
+    grid-template-areas: "activity widgets";
+}
+
+#activity__feed {
+    padding-left: 16px;
+    grid-area: activity;
+}
+
+#widgets {
+    display: flex;
+    grid-area: widgets;
+
+    flex-direction: column;
+    gap: 16px;
+}
+
+.divider {
+    width: calc(100% - 32px);
+    color:hsl(0, 0%, 0%, 0.40);
+}
+
+#events, #recents {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inline-card {
+    padding: 8px;
+    border-left: 3px solid lightgray;
+    text-decoration: none;
+}
+.inline-card:hover {
+    box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px;
+    transition: box-shadow 200ms ease;
+    -webkit-transition: box-shadow 200ms ease;
+}
+.event__time {
+    color: hsl(0, 0%, 0%, 0.40);
+}
+
+.widget {
+    width: 100%;
+    margin: 16px;
+    margin-inline: 0;
+}
+.widget__title {
+    margin-bottom: 32px;
+}
+.widget__title-text {
+    text-align: center;
+}
+
+.activity, .widget, .activity__feed-title {
+    padding: 16px;
+    margin: 0;
+}
+.activity__title, .widget__title {
+    font-weight: 700;
+}
+.activity__text, .activity__title-text, .widget__title-text, .event__title, .event__time, .recent__file {
+    margin: 0;
+    padding: 0;
+}
+.activity__list {
+    font-weight: 100;
+
+    margin: 0;
+    margin-top: 4px;
+}
+.activity__detail {
+    margin: 4px;
+    margin-inline: 0;
+}

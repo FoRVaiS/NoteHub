@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div id="main-container" class="container">
+        <div id="spacer--header"></div>
+        <div id="activity__feed">
+            <h1 class="activity__feed-title">Activity</h1>
+            <template id="activity--template">
+                <div class="activity">
+                    <header class="activity__title">
+                        <p class="activity__title-text"></p>
+                    </header>
+                    <ul class="activity__list"></ul>
+                </div>
+            </template>
+        </div>
+        <div id="widgets">
+            <div class="widget" id="widget__events">
+                <header class="widget__title">
+                    <p class="widget__title-text">Events</p>
+                </header>
+                <div class="widget__body">
+                    <div id="events">
+                        <template id="event--template">
+                            <div class="inline-card">
+                                <p class="event__title"></p>
+                                <p class="event__time"><small></small></p>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+            <div class="widget" id="widget__recent">
+                <header class="widget__title">
+                    <p class="widget__title-text">You've recently viewed...</p>
+                </header>
+                <div class="widget__body">
+                    <div id="recents">
+                        <template id="recent--template">
+                            <a class="inline-card">
+                                <p class="recent__file"></p>
+                                <!-- <p class="event__time"><small></small></p> -->
+                            </a>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../vendors.js"></script>
+    <script src="../../global.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
