@@ -53,7 +53,9 @@ body {
     padding-inline: 0;
 
     color: hsl(0, 0%, 75%);
+    transition: text-shadow 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .nav__item-link:hover {
-    font-weight: 700;
+    text-shadow: 0.06ex 0px 0px white, -0.06ex 0px 0px white; /* https://stackoverflow.com/questions/5687035/css-bolding-some-text-without-changing-its-containers-size */
+    transition: text-shadow 200ms cubic-bezier(0.075, 0.82, 0.165, 1); /* font-weight behaves strangely with a transition, thus a new solution is needed */
 }
