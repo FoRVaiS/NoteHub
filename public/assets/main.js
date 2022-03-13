@@ -16,12 +16,12 @@
         return [
             {
                 type: 'change',
-                title: 'Ben has made the following changes to the COMP1537 document',
+                title: 'Ben has made the following changes to the COMP 1537 document',
                 activity: [ "Added a paragraph explaining how to create and use css variables", "Provided code examples to demonstrate css variable usage" ],
             },
             {
                 type: 'change',
-                title: 'Terence has made the following changes to the COMP1510 document',
+                title: 'Terence has made the following changes to the COMP 1510 document',
                 activity: [ "Wrote an explanation on iterating through dictionaries", "Revised one paragraph" ],
             }
         ]
@@ -30,23 +30,23 @@
     const fetchEvents = () => {
         return [
             {
-                title: "COMP1712 - Lecture",
+                title: "COMP 1712 - Lecture",
                 hoursUntil: 1.5,
             },
             {
-                title: "COMP1510 - Lab",
+                title: "COMP 1510 - Lab",
                 hoursUntil: 3.5,
             },
             {
-                title: "COMP1510 - Tutorial",
+                title: "COMP 1510 - Tutorial",
                 hoursUntil: 5.5,
             },
             {
-                title: "COMP1110 - Lecture",
+                title: "COMP 1110 - Lecture",
                 hoursUntil: 6.5,
             },
             {
-                title: "COMP1510 - Lecture",
+                title: "COMP 1510 - Lecture",
                 hoursUntil: 8.5,
             }
         ]
