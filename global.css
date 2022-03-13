@@ -15,9 +15,11 @@ body {
 }
 
 .container {
+    margin-top: 16px;
     width: 100%;
 
     background-color: hsl(0, 0%, 100%);
+    border-top-left-radius: 5px;
 }
 
 /* Partials Styles */
