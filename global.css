@@ -42,7 +42,9 @@ body {
     font-size: 36px;
     font-weight: 700;
 
-    color:hsl(0, 0%, 90%)
+    color:hsl(0, 0%, 90%);
+
+    text-decoration: none;
 }
 .nav__item {
     display: inline-block;
