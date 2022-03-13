@@ -106,8 +106,10 @@
 
     loadRecentFiles().forEach(data => {
         const recent = document.querySelector('#recent--template').content.cloneNode(true);
+        const inlineCard = recent.querySelector('.inline-card');
         const recentFile = recent.querySelector('.recent__file');
 
+        inlineCard.setAttribute('href', `../../pages/notepage/notepage.html?courseId=0&topicId=0&docId=0`);
         recentFile.textContent = data.folderPath + '/' + data.filename;
 
         document.querySelector('#recents').appendChild(recent); // 'recents' for the lack of a better name
