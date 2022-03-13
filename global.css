@@ -20,6 +20,8 @@ body {
 
     background-color: hsl(0, 0%, 100%);
     border-top-left-radius: 5px;
+
+    overflow-y: auto;
 }
 
 /* Partials Styles */
