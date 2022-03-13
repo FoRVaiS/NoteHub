@@ -23,6 +23,8 @@ body {
     list-style: none;
 
     height: 100%;
+
+    background-color: hsl(0, 0%, 11%);
 }
 .nav__section {
     display: flex;
@@ -32,6 +34,9 @@ body {
 }
 .nav__header {
     font-size: 36px;
+    font-weight: 700;
+
+    color:hsl(0, 0%, 90%)
 }
 .nav__item {
     display: inline-block;
@@ -42,6 +47,8 @@ body {
     font-weight: 500;
     padding: 8px;
     padding-inline: 0;
+
+    color: hsl(0, 0%, 75%);
 }
 .nav__item-link:hover {
     font-weight: 700;
