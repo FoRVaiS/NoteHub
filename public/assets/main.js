@@ -55,7 +55,7 @@
     const loadRecentFiles = () => {
         return [
             {
-                folderPath: 'COMP-1510/Dictionaries',
+                folderPath: 'COMP1510/Dictionaries',
                 filename: 'Looping-through-a-Dictionary'
             },
             // {
@@ -109,7 +109,7 @@
         const inlineCard = recent.querySelector('.inline-card');
         const recentFile = recent.querySelector('.recent__file');
 
-        inlineCard.setAttribute('href', `../../pages/notepage/notepage.html?courseId=0&topicId=0&docId=0`);
+        inlineCard.setAttribute('href', `/notes/0/0/0`);
         recentFile.textContent = data.folderPath + '/' + data.filename;
 
         document.querySelector('#recents').appendChild(recent); // 'recents' for the lack of a better name
