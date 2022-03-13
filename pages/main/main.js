@@ -55,7 +55,7 @@
     const loadRecentFiles = () => {
         return [
             {
-                folderPath: 'COMP1510/Dictionaries',
+                folderPath: 'COMP-1510/Dictionaries',
                 filename: 'Looping-through-a-Dictionary'
             },
             // {
