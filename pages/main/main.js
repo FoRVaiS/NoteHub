@@ -17,12 +17,12 @@
             {
                 type: 'change',
                 title: 'Ben has made the following changes to the COMP1537 document',
-                activity: [ "Add a paragraph explaining how to create and use css variables", "Provide code examples to demonstrate css variable usage" ],
+                activity: [ "Added a paragraph explaining how to create and use css variables", "Provided code examples to demonstrate css variable usage" ],
             },
             {
                 type: 'change',
                 title: 'Terence has made the following changes to the COMP1510 document',
-                activity: [ "Write an explanation on list comprehensions", "Revise one paragraph" ],
+                activity: [ "Wrote an explanation on iterating through dictionaries", "Revised one paragraph" ],
             }
         ]
     }
@@ -55,25 +55,25 @@
     const loadRecentFiles = () => {
         return [
             {
-                folderPath: 'path/to/directory',
-                filename: 'a470494d-2481-4f81-8493-f584014cad31'
+                folderPath: 'COMP1510/Dictionaries',
+                filename: 'Looping-through-a-Dictionary'
             },
-            {
-                folderPath: 'path/to/directory',
-                filename: '9421dc2a-8aa0-4389-832c-a92995968e88'
-            },
-            {
-                folderPath: 'path/to/directory',
-                filename: '3b3ad390-6724-4920-99df-63e4bcc071ff'
-            },
-            {
-                folderPath: 'path/to/directory',
-                filename: 'ba2b26dc-ac82-406f-b650-01a5e940f91f'
-            },
-            {
-                folderPath: 'path/to/directory',
-                filename: 'b58d0122-2a81-4382-a04a-a6e81c4cb510'
-            }
+            // {
+            //     folderPath: 'path/to/directory',
+            //     filename: '9421dc2a-8aa0-4389-832c-a92995968e88'
+            // },
+            // {
+            //     folderPath: 'path/to/directory',
+            //     filename: '3b3ad390-6724-4920-99df-63e4bcc071ff'
+            // },
+            // {
+            //     folderPath: 'path/to/directory',
+            //     filename: 'ba2b26dc-ac82-406f-b650-01a5e940f91f'
+            // },
+            // {
+            //     folderPath: 'path/to/directory',
+            //     filename: 'b58d0122-2a81-4382-a04a-a6e81c4cb510'
+            // }
         ]
     }
 
